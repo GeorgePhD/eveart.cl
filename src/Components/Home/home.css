@@ -1,0 +1,9 @@
+
+.title {
+    margin-top: 10rem;
+}
+.title,
+.subtitle {
+    font-size: 3rem;
+    text-align: center;
+}
