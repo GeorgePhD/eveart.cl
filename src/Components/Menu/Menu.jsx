@@ -14,7 +14,7 @@ const Menu = () => {
     return (
         <>
             <Navbar expand="md" className="bg-body-tertiary mb-3" data-bs-theme="light">
-                <img src={Logo} className='logo' alt="Logo EveArt"/><h4 className='menu__eve'>EveArt, Artista.</h4>
+                <img src={Logo} className='logo' alt="Logo EveArt"/><h4 className='menu__eve'>Eve_Art</h4>
                 <Container fluid>
                     <Navbar.Brand className='navbar__brand' href="#"></Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />
@@ -35,7 +35,7 @@ const Menu = () => {
                                     title="Galería"
                                     id="offcanvasNavbarDropdown"
                                 >
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./protein">Art 1</NavDropdown.Item>
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./drawings">Dibujos</NavDropdown.Item>
                                     <NavDropdown.Item className='nav__link' as={Link} to="./creatine">
                                     Art 2
                                     </NavDropdown.Item>
