@@ -37,13 +37,13 @@ const Menu = () => {
                                 >
                                     <NavDropdown.Item className='nav__link' as={Link} to="./drawings">Dibujos</NavDropdown.Item>
                                     <NavDropdown.Item className='nav__link' as={Link} to="./creatine">
-                                    Art 2
+                                    Pinturas
                                     </NavDropdown.Item>
                                     <NavDropdown.Item className='nav__link' as={Link} to="./accessories">
-                                    Art 3
+                                    Estudios
                                     </NavDropdown.Item>
                                     <NavDropdown.Item className='nav__link' as={Link} to="./gear">
-                                    Art 4
+                                    Otros
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>

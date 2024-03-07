@@ -9,9 +9,32 @@ import Image7 from '../../images/ST, 2016, Cuba. Tinta sobre papel, 86,5 x 66 cm
 import Image8 from '../../images/ST, 2016. Tinta sobre lienzo, 38 x 38 cm..png'
 import Image9 from '../../images/ST, 2017, Chile. Tinta sobre papel, 86,5 x 66 cm..png'
 import Image10 from '../../images/ST, 2016, Cuba. Tinta sobre papel, 86,5 x 66 cm..png'
-
+import { useEffect } from 'react';
 
 const Drawings = () => {
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const items = document.querySelectorAll('.drawing__container');
+    
+            items.forEach((item) => {
+                const itemTop = item.getBoundingClientRect().top;
+    
+                // Adjust this value based on when you want the animation to start
+                if (itemTop < window.innerHeight * 0.5) {
+                    item.style.opacity = 1;
+                }
+            });
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Call it once to check initial state
+    
+        // Cleanup the event listener when the component is unmounted
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []); // Empty dependency array means this effect runs once after initial render
 
     return (
 
