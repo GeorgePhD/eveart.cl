@@ -24,13 +24,13 @@
     color: rgb(165, 164, 164);
 }
 .nav__link:nth-child(4) {
-    margin-right: 5rem;
+    margin-right: 7rem;
 }
 .logo {
     max-width: 3rem;
     /* margin-left: 10%; */
 }
-.menu__eve {
+.menu__eve__title {
     font-size: 1.2rem;
     color: rgb(165, 164, 164);
 }

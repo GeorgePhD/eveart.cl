@@ -12,17 +12,17 @@ import { useState } from 'react';
 
 const Menu = () => {
 
-    const [language, setLanguage] = useState('spanish');
+    const [language, setLanguage] = useState('English');
 
     const toggleLanguage = () => {
-        setLanguage(language === 'spanish' ? 'english' : 'spanish');
+        setLanguage(language === 'Spanish' ? 'English' : 'Spanish');
     };
 
     return (
         <>
             <Navbar expand="md" className="bg-body-tertiary mb-3" data-bs-theme="light">
                 {/* <img src={Logo} className='logo' alt="Logo EveArt"/> */}
-                <h4 className='menu__eve'>EvelynAguilar</h4>
+                <h1 className='menu__eve__title'>EvelynAguilar</h1>
                 
                 <Container fluid>
                     <Navbar.Brand className='navbar__brand' href="#"></Navbar.Brand>
@@ -38,25 +38,21 @@ const Menu = () => {
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                             <button className='menu__button' onClick={toggleLanguage}>{language}</button>
-                                <Nav.Link className='nav__link' as={Link} to="./home">{language === 'spanish' ? 'Home' : 'Inicio'}</Nav.Link>
-                                <Nav.Link className='nav__link' as={Link} to="./about">{language === 'spanish' ? 'About' : 'Acerca de mi'}</Nav.Link>
+                                <Nav.Link className='nav__link' as={Link} to="./home">{language === 'Spanish' ? 'Home' : 'Inicio'}</Nav.Link>
+                                <Nav.Link className='nav__link' as={Link} to="./about">{language === 'Spanish' ? 'About' : 'Acerca de mi'}</Nav.Link>
                                 <NavDropdown
                                     className='nav__link'
-                                    title={language === 'spanish' ? 'Gallery' : 'Galería'}
+                                    title={language === 'Spanish' ? 'Gallery' : 'Galería'}
                                     id="offcanvasNavbarDropdown"
                                 >
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./drawings">Dibujos</NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./paintings">
-                                        Pinturas
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./drawings">{language === 'Spanish' ? 'Drawings' : 'Dibujos'}</NavDropdown.Item>
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./paintings">{language === 'Spanish' ? 'Paintings' : 'Pinturas'}
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./collage">
-                                        Collage
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./collage">{language === 'Spanish' ? 'Collage' : 'Collage'}
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./installations">
-                                        Instalaciones
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./installations">{language === 'Spanish' ? 'Installations & objects' : 'Instalaciones y objetos'}
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./oleopastel">
-                                        Óleo pastel
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./oleopastel">{language === 'Spanish' ? 'Pastel Oleo' : 'Óleo pastel'}
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
