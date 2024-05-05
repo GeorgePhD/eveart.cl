@@ -1,0 +1,100 @@
+.footer {
+    /* margin-top: 5rem; */
+    margin-bottom: 0;
+    padding: 5rem 1rem 3rem 1rem;
+    color: grey;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.section1 {
+    flex-basis: 33%;
+    text-align: center;
+}
+.footer-section h2 {
+    font-size: 2.5rem;
+}
+.footer-section p {
+    font-size: 1.5rem;
+}
+.section2 {
+    flex-basis: 33%;
+    text-align: center;
+}
+.section3 {
+    flex-basis: 33%;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 1.5rem;
+}
+.footer__icons__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    transition: transform all 0.5s ease-in-out;
+    -webkit-transition: transform all 0.5s ease-in-out;
+    -moz-transition: transform all 0.5s ease-in-out;
+    -ms-transition: transform all 0.5s ease-in-out;
+    -o-transition: transform all 0.5s ease-in-out;
+}
+.footer__icons {
+    font-size: 3rem;
+    color: grey;
+}
+.footer__icons:hover {
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+}
+@media screen and (width <= 560px) {
+    .footer-section.section1 h2 {
+        font-size: 1rem;
+    }
+    .footer-section.section1 p,
+    .footer-section.section2 p,
+    .footer-bottom.section3 p {
+        font-size: 1rem;
+    }
+    .footer__icons {
+        font-size: 1.5rem;
+    }
+    .footer {
+        padding: 0;
+    }
+}
+@media screen and (width <= 430px) {
+    .footer-section.section1 h2 {
+        display: none;
+    }
+    .footer-section.section1 p,
+    .footer-section.section2 p,
+    .footer-bottom.section3 p {
+        font-size: 1rem;
+    }
+    .footer-section.section1 p {
+        margin-bottom: 2px;
+    }
+    .footer__icons {
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+    .footer {
+        padding-top: 0;
+        margin-top: -3rem;
+    }
+    div.footer__icons__container {
+        margin-bottom: 1rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
