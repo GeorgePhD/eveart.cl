@@ -8,7 +8,8 @@ import OleoPastel from '../src/Components/OleoPastel/OleoPastel';
 import Home from '../src/Components/Home/Home';
 import About from '../src/Components/About/About';
 import Footer from '../src/Components/Footer/Footer';
-
+/* import Button from '../src/Components/Utils/ChangeLanguageButton';
+ */
 function App() {
 
 
@@ -16,6 +17,7 @@ function App() {
     <>
     <BrowserRouter>
       <Menu />
+      {/* <Button /> */}
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="*" element={<Navigate to="/" />} />

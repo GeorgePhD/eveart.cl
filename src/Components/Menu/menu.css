@@ -23,7 +23,7 @@
 #offcanvasNavbarDropdown {
     color: rgb(165, 164, 164);
 }
-.nav__link:nth-child(3) {
+.nav__link:nth-child(4) {
     margin-right: 5rem;
 }
 .logo {
@@ -33,4 +33,15 @@
 .menu__eve {
     font-size: 1.2rem;
     color: rgb(165, 164, 164);
+}
+.menu__button {
+    margin-bottom: 1rem;
+    border: none;
+    padding: 1rem;
+    color: #2DAE01;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
 }

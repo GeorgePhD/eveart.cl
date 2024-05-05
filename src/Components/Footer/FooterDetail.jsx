@@ -24,7 +24,7 @@ const FooterDetail = () => {
                 </div>
 
                 <div className="footer-bottom section3">
-                <p className="lato-bold">&copy; 2024 EveArt, Derechos reservados.</p>
+                <p className="lato-bold">&copy; 2024, Derechos reservados.</p>
             </div>
             </div>
 
