@@ -38,7 +38,7 @@ const Oleopastel = () => {
 
     return (
 
-        <div className='grid__layout'>
+        <div className='grid__layout__oleopastel'>
             <section className="oleopastel__container">
                 <img className='oleopastel__img' src={Image1} alt="El vigilante" />
                 <p className="oleopastel__p">Agua sobre agua I, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm</p>

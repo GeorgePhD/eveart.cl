@@ -86,7 +86,7 @@ const Paintings = () => {
 
     return (
 
-        <div className='grid__layout'>
+        <div className='grid__layout__paintings'>
             <section className="paintings__container">
                 <img className='paintings__img' src={Image1} alt="El vigilante" />
                 <p className="paintings__p">Description</p>

@@ -49,7 +49,7 @@ const Collage = () => {
 
     return (
 
-        <div className='grid__layout'>
+        <div className='grid__layout__collage'>
             <section className="collage__container">
                 <img className='collage__img' src={Image1} alt="El vigilante" />
                 <p className="collage__p">description</p>

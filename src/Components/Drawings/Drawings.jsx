@@ -72,7 +72,7 @@ const Drawings = () => {
 
     return (
 
-        <div className='grid__layout'>
+        <div className='grid__layout__drawings'>
             <section className="drawing__container">
                 <img className='drawing__img' src={Image1} alt="El vigilante" />
                 <p className="drawing__p">EL VIGILANTE - 2018 - Tinta sobre papel - 90 x 75 cm</p>
