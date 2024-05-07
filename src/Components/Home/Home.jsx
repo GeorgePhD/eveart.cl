@@ -1,5 +1,5 @@
 import './home.css';
-import banner from '../../images/banner.png';
+import banner from '../../images/banner2.png';
 const Home = () => {
 
   return (
