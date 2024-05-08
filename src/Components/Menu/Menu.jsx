@@ -7,10 +7,26 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './menu.css';
 /* import Logo from '../../images/logo.png'; */
 import { Link, Outlet } from 'react-router-dom';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 
 const Menu = () => {
+
+    const [showOffcanvas, setShowOffcanvas] = useState(false);
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
+
+    const toggleOffcanvas = () => {
+        if(isSmallScreen) {
+            setShowOffcanvas(!showOffcanvas);
+        }
+    };
+
+    useEffect(() => {
+        const handleResize = () => setIsSmallScreen(window.innerWidth < 768);
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize); // Cleanup
+    }, []); // Empty dependency array for effect to run once
 
     const [language, setLanguage] = useState('English');
 
@@ -26,8 +42,10 @@ const Menu = () => {
                 
                 <Container fluid>
                     <Navbar.Brand className='navbar__brand' href="#"></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                    <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={toggleOffcanvas} />
                     <Navbar.Offcanvas
+                    show={showOffcanvas}
+                    onHide={() => setShowOffcanvas(false)} // Hide menu on close button click
                         id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel"
                         placement="end"
@@ -38,21 +56,21 @@ const Menu = () => {
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                             <button className='menu__button' onClick={toggleLanguage}>{language}</button>
-                                <Nav.Link className='nav__link' as={Link} to="./home">{language === 'Spanish' ? 'Home' : 'Inicio'}</Nav.Link>
-                                <Nav.Link className='nav__link' as={Link} to="./about">{language === 'Spanish' ? 'About' : 'Acerca de mi'}</Nav.Link>
+                                <Nav.Link className='nav__link' as={Link} to="./home" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Home' : 'Inicio'}</Nav.Link>
+                                <Nav.Link className='nav__link' as={Link} to="./about" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'About' : 'Acerca de mi'}</Nav.Link>
                                 <NavDropdown
                                     className='nav__link'
                                     title={language === 'Spanish' ? 'Gallery' : 'Galería'}
                                     id="offcanvasNavbarDropdown"
                                 >
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./drawings">{language === 'Spanish' ? 'Drawings' : 'Dibujos'}</NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./paintings">{language === 'Spanish' ? 'Paintings' : 'Pinturas'}
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./drawings" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Drawings' : 'Dibujos'}</NavDropdown.Item>
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./paintings" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Paintings' : 'Pinturas'}
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./collage">{language === 'Spanish' ? 'Collage' : 'Collage'}
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./collage" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Collage' : 'Collage'}
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./installations">{language === 'Spanish' ? 'Installations & objects' : 'Instalaciones y objetos'}
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./installations" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Installations & objects' : 'Instalaciones y objetos'}
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./oleopastel">{language === 'Spanish' ? 'Pastel Oleo' : 'Óleo pastel'}
+                                    <NavDropdown.Item className='nav__link' as={Link} to="./oleopastel" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Pastel Oleo' : 'Óleo pastel'}
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
@@ -66,5 +84,4 @@ const Menu = () => {
         </>
     );
 }
-
 export default Menu

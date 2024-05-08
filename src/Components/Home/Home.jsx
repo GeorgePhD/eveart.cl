@@ -5,11 +5,7 @@ const Home = () => {
   return (
     <div className='home__container'>
       <div className='content'>
-        <h1 className='title'>
-{/*           <span className='beating-heart'>🖤</span>
- */}          Evelyn Aguilar Sánchez
-{/*           <span className='beating-heart'>🖤</span>
- */}        </h1>
+        <h1 className='title'>Evelyn Aguilar Sánchez</h1>
             <div className="home__banner">
               <img className='home__banner__img' src={banner} alt="banner" />
             </div>
