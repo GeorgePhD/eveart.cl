@@ -16,19 +16,20 @@ const FooterDetail = () => {
                 <div className="footer-section section2">
                     {/* <p className="lato-bold">Síguenos en: </p> */}
                     <FooterIcons />
+                <div className="letsdevelopme__container">
+                    <p className="p__letsdevel0pme">desarrollado por:</p>
+                    <a href="https://www.yourwebsite.com" className="link__letsdevel0pme">letsdevel0pme.cl</a>
+                </div>
+                    
                     <div className="social-icons">
                         {/* Include social icons or links here */}
                         {/* Example: <a href="#" className="social-icon">Icon</a> */}
-                        
                     </div>
                 </div>
-
                 <div className="footer-bottom section3">
-                <p className="lato-bold">&copy; 2024, Derechos reservados.</p>
+                    <p className="lato-bold">&copy; 2024, Derechos reservados.</p>
+                </div>
             </div>
-            </div>
-
-            
         </footer>
     )
 }

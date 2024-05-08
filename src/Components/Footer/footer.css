@@ -29,7 +29,7 @@
     text-align: center;
 }
 .footer-bottom p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .footer__icons__container {
     display: flex;
@@ -55,6 +55,27 @@
     -moz-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
     -o-transform: rotate(15deg);
+}
+.letsdevelopme__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.p__letsdevel0pme {
+    font-size: 1rem !important;
+    margin-bottom: 0;
+}
+.link__letsdevel0pme {
+    color: grey;
+    text-decoration: none;
+    font-weight: 600;
+}
+.link__letsdevel0pme:hover {
+    transform: scale(1.1);
+    color: rgb(82, 82, 82);
+    transition: all 300ms ease-in-out;
 }
 @media screen and (width <= 560px) {
     .footer-section.section1 h2 {

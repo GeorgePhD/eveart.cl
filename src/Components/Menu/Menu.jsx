@@ -51,7 +51,7 @@ const Menu = () => {
                         placement="end"
                     >
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title id="offcanvasNavbarLabel">EvelynAguilar</Offcanvas.Title>
+                            <Offcanvas.Title id="offcanvasNavbarLabel" className='offcanvas__title'>EvelynAguilar</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
