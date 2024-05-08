@@ -38,7 +38,7 @@ const Menu = () => {
         <>
             <Navbar expand="md" className="bg-body-tertiary mb-3" data-bs-theme="light">
                 {/* <img src={Logo} className='logo' alt="Logo EveArt"/> */}
-                <h1 className='menu__eve__title'>EvelynAguilar</h1>
+                {/* <h1 className='menu__eve__title'>EvelynAguilar</h1> */}
                 
                 <Container fluid>
                     <Navbar.Brand className='navbar__brand' href="#"></Navbar.Brand>
@@ -57,7 +57,7 @@ const Menu = () => {
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                             <button className='menu__button' onClick={toggleLanguage}>{language}</button>
                                 <Nav.Link className='nav__link' as={Link} to="./home" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Home' : 'Inicio'}</Nav.Link>
-                                <Nav.Link className='nav__link' as={Link} to="./about" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'About' : 'Acerca de mi'}</Nav.Link>
+                                <Nav.Link className='nav__link' as={Link} to="./about" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'About' : 'Acerca de mí'}</Nav.Link>
                                 <NavDropdown
                                     className='nav__link'
                                     title={language === 'Spanish' ? 'Gallery' : 'Galería'}

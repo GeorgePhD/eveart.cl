@@ -113,13 +113,21 @@
         width: 20rem;
     }
 }
-/* @media screen and (width <= 394px) {
-    .about__section {
+@media screen and (width <= 414px) {
+/*     .about__section {
         display: flex;
         margin-right: -5rem;
         background-color: #dae6d6;
+    } */
+    .about__p__container {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
     }
-} */
+    .about__img {
+        width: 17rem;
+    }
+}
 @media screen and (width <= 330px) {
     .about__p__container {
         margin-left: 2.5rem;

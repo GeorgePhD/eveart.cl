@@ -29,3 +29,12 @@
     margin-top: 2rem;
     color: rgb(165, 164, 164);
 }
+@media screen and (width <= 414px) {
+    .oleopastel__img {
+        width: 70%;
+        height: auto;
+    }
+    .oleopastel__p {
+        font-size: 0.8rem;
+    }
+}

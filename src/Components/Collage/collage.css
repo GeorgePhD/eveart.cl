@@ -29,3 +29,12 @@
     margin-top: 2rem;
     color: rgb(165, 164, 164);
 }
+@media screen and (width <= 414px) {
+    .collage__img {
+        width: 70%;
+        height: auto;
+    }
+    .collage__p {
+        font-size: 0.8rem;
+    }
+}

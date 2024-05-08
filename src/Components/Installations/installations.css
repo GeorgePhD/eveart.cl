@@ -28,5 +28,13 @@
     text-align: center;
     margin-top: 2rem;
     color: rgb(165, 164, 164);
-
+}
+@media screen and (width <= 414px) {
+    .installations__img {
+        width: 70%;
+        height: auto;
+    }
+    .installations__p {
+        font-size: 0.8rem;
+    }
 }
