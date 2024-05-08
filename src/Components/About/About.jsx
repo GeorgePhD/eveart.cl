@@ -16,8 +16,6 @@ const About = () => {
   return (
     <>
     <div className="about__p__container">
-    {/* <h1 className='about__title'>{language === 'spanish' ? 'Hola,' : 'Hello,'}</h1>
-    <h2 className='about__subtitle'>{language === 'spanish' ? 'soy Evelyn Aguilar Sánchez.' : 'I am Evelyn Aguilar Sánchez.'}</h2> */}
     <button className='about__button' onClick={toggleLanguage}>{language === 'spanish' ? 'Switch to English' : 'Cambiar a Español'}</button>
     <section className='about__section'>
       <p className="about__p inter__font">{language === 'spanish' ? 'Desde pequeña siempre me motivó el lenguaje del arte y sus matices para poder expresarme. Comencé a recibir talleres de artes visuales, descubrí sus técnicas y como éstas pueden ser un medio para representar un pensamiento individual. ' : 'Since I was little little I have always been motivated by the language of art and its nuances to be able to express myself. I began to receive visual art workshops, discovered their techniques and how they can be a medium to represent an individual thought.'}</p>

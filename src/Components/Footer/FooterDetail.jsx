@@ -1,6 +1,6 @@
 import FooterIcons from "./FooterIcons";
-
 const FooterDetail = () => {
+    
 
     return (
 
@@ -9,7 +9,7 @@ const FooterDetail = () => {
                 
                 <div className="footer-section section1">
                     <h2 className="footer__h2__invisible lato-bold">Contacto</h2>
-                    <p className="lato-regular">eveart@evelynaguilarart.com</p>
+                    <p className="footer__p lato-regular">eveart@evelynaguilarart.com</p>
                     {/* <p className="lato-regular">Celular: +56 9 7727 4710</p> */}
                 </div>
 
