@@ -276,6 +276,10 @@ const Paintings = () => {
                 <p className="paintings__p">Description</p>
             </section>
             <section className="paintings__container">
+                <img className='paintings__img' src={Image50} alt="El vigilante" />
+                <p className="paintings__p">Description</p>
+            </section>
+            <section className="paintings__container">
                 <img className='paintings__img' src={Image48} alt="El vigilante" />
                 <p className="paintings__p">Description</p>
             </section>
@@ -284,27 +288,7 @@ const Paintings = () => {
                 <p className="paintings__p">Description</p>
             </section>
             <section className="paintings__container">
-                <img className='paintings__img' src={Image50} alt="El vigilante" />
-                <p className="paintings__p">Description</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image51} alt="El vigilante" />
-                <p className="paintings__p">Description</p>
-            </section>
-            <section className="paintings__container">
                 <img className='paintings__img' src={Image52} alt="El vigilante" />
-                <p className="paintings__p">Description</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image53} alt="El vigilante" />
-                <p className="paintings__p">Description</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image54} alt="El vigilante" />
-                <p className="paintings__p">Description</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image55} alt="El vigilante" />
                 <p className="paintings__p">Description</p>
             </section>
             <section className="paintings__container">
@@ -312,11 +296,27 @@ const Paintings = () => {
                 <p className="paintings__p">Description</p>
             </section>
             <section className="paintings__container">
-                <img className='paintings__img' src={Image57} alt="El vigilante" />
+                <img className='paintings__img' src={Image54} alt="El vigilante" />
                 <p className="paintings__p">Description</p>
             </section>
             <section className="paintings__container">
                 <img className='paintings__img' src={Image58} alt="El vigilante" />
+                <p className="paintings__p">Description</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image55} alt="El vigilante" />
+                <p className="paintings__p">Description</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image57} alt="El vigilante" />
+                <p className="paintings__p">Description</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image51} alt="El vigilante" />
+                <p className="paintings__p">Description</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image53} alt="El vigilante" />
                 <p className="paintings__p">Description</p>
             </section>
         </div>

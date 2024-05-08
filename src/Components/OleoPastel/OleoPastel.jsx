@@ -57,27 +57,27 @@ const Oleopastel = () => {
             </section>
             <section className="oleopastel__container">
                 <img className='oleopastel__img' src={Image5} alt="El vigilante" />
-                <p className="oleopastel__p">Agua sobre agua IX, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.jpg.jpg.jpg.jpg.jpg.jpg</p>
+                <p className="oleopastel__p">Agua sobre agua IX, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.</p>
             </section>
             <section className="oleopastel__container">
                 <img className='oleopastel__img' src={Image6} alt="El vigilante" />
-                <p className="oleopastel__p">Agua sobre agua V, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.jpg.jpg</p>
+                <p className="oleopastel__p">Agua sobre agua V, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.</p>
             </section>
             <section className="oleopastel__container">
                 <img className='oleopastel__img' src={Image7} alt="El vigilante" />
-                <p className="oleopastel__p">Agua sobre agua VI, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.jpg.jpg.jpg</p>
+                <p className="oleopastel__p">Agua sobre agua VI, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.</p>
             </section>
             <section className="oleopastel__container">
                 <img className='oleopastel__img' src={Image8} alt="El vigilante" />
-                <p className="oleopastel__p">Agua sobre agua VII, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.jpg.jpg.jpg.jpg</p>
+                <p className="oleopastel__p">Agua sobre agua VII, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.</p>
             </section>
             <section className="oleopastel__container">
                 <img className='oleopastel__img' src={Image9} alt="El vigilante" />
-                <p className="oleopastel__p">Agua sobre agua VIII, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.jpg.jpg.jpg.jpg.jpg</p>
+                <p className="oleopastel__p">Agua sobre agua VIII, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.</p>
             </section>
             <section className="oleopastel__container">
                 <img className='oleopastel__img' src={Image10} alt="El vigilante" />
-                <p className="oleopastel__p">Agua sobre agua X, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.jpg.jpg.jpg.jpg.jpg.jpg.jpg</p>
+                <p className="oleopastel__p">Agua sobre agua X, de la Serie Paisajes Inmersos 2023, óleo pastel sobre cartulina, 24 x 34 cm.</p>
             </section>
 
         </div>
