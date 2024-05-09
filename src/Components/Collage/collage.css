@@ -23,10 +23,15 @@
     border-radius: 0;
     box-shadow: 2px 2px 5px grey;
 }
+.collage__subtitle,
 .collage__p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 2rem;
+    color: rgb(165, 164, 164);
+}
+.collage__subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
     color: rgb(165, 164, 164);
 }
 @media screen and (width <= 414px) {
@@ -34,7 +39,8 @@
         width: 70%;
         height: auto;
     }
-    .collage__p {
+    .collage__p,
+    .collage__subtitle {
         font-size: 0.8rem;
     }
 }
