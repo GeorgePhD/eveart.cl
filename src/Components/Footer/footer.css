@@ -87,6 +87,14 @@
     text-decoration: none;
     font-weight: 600;
 }
+.footer__email__link {
+    color: grey;
+    text-decoration: none;
+    transition: all 300ms ease-in-out; /* Transition effect with duration of 0.3 seconds */
+}
+.footer__email__link:hover {
+    color: rgb(61, 61, 61);
+}
 .link__letsdevel0pme:hover {
     transform: scale(1.1);
     color: rgb(82, 82, 82);
