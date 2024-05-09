@@ -168,9 +168,12 @@
         font-size: 0.6rem !important;
     }
 }
-@media screen and (width <= 420px) {
+@media screen and (width <= 430px) {
     .footer {
         margin-top: 7rem;
+    }
+    .footer__email__link {
+        font-size: 0.6rem;
     }
 }
 @media screen and (width <= 340px) {
