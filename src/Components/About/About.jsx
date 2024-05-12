@@ -2,8 +2,8 @@ import './about.css';
 import img1 from '../../images/profile_img (1).jpg';
 import img2 from '../../images/profile_img (2).jpg';
 import img3 from '../../images/profile_img (3).jpg';
-import img4 from '../../images/DSC04579.png';
-import img5 from '../../images/DSC04580.png';
+import img4 from '../../images/profile_img (4).jpg';
+import img5 from '../../images/profile_img (5).jpg';
 import { useState } from 'react';
 const About = () => {
 
