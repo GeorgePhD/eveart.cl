@@ -20,7 +20,7 @@ const FooterDetail = () => {
                     <FooterIcons />
                 <div className="letsdevelopme__container">
                     <p className="p__letsdevel0pme">desarrollado por:</p>
-                    <a href="https://www.letsdevelopme.com" className="link__letsdevel0pme">letsdevel0pme.cl</a>
+                    <a href="https://www.letsdevelopme.com" target="_blank"  className="link__letsdevel0pme">letsdevelopme.com</a>
                 </div>
                     <div className="social-icons">
                         {/* Include social icons or links here */}
