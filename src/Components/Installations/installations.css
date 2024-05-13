@@ -51,13 +51,34 @@ p.installations__content {
 
 
 
-@media screen and (width <=414px) {
-    .installations__img {
-        width: 70%;
+@media screen and (width <=733px) {
+    .main__image__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main__image {
+        width: 90%;
+    }
+    .sub__images__container {
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    .sub-image {
+        width: 8rem;
         height: auto;
     }
-
-    .installations__p {
-        font-size: 0.8rem;
+}
+@media screen and (width <=535px) {
+    .main__image {
+        width: 95%;
+    }
+    .sub-image {
+        width: 20%;
+        height: auto;
+    }
+    .sub__images__container {
+        width: 80%;
     }
 }
