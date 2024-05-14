@@ -51,8 +51,8 @@ h2.installations__content {
 p.installations__content {
     font-size: 1.2rem;
     text-align: center;
-    margin-top: 0;
     color: rgb(165, 164, 164);
+    margin-top: 0;
     width: 40%;
 }
 
@@ -114,7 +114,11 @@ p.installations__content {
         line-height: 1.1;
     }
 }
-
+@media screen and (width <= 414px) {
+    p.installations__content {
+        font-size: 0.8rem;
+    }
+}
 @media screen and (width <=346px) {
     p.installations__content {
         font-size: 0.9rem;
