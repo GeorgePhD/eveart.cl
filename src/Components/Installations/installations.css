@@ -11,7 +11,7 @@
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .main__image__container {
@@ -26,8 +26,10 @@
     flex: 1;
     /* Right column takes remaining space */
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 0.7rem;
     padding: 0;
     /* Adjust the gap between images */
@@ -36,20 +38,33 @@
     width: 10rem;
     /* Ensure sub images fill their container */
 }
-
+.sub-image.sub9 {
+    width: 7%;
+    height: auto;
+}
+/* 
 h2.installations__content {
     text-align: start;
     font-size: 1rem;
     margin-bottom: -1rem;
-}
+} */
 p.installations__content {
-    text-align: start;
-    font-size: 1rem;
-    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0;
+    color: rgb(165, 164, 164);
+    width: 40%;
 }
 
-
-
+@media screen and (width <=1089px) {
+    p.installations__content {
+        width: 65%;
+    }
+    .sub-image.sub9 {
+        width: 8%;
+        height: auto;
+    }
+}
 
 @media screen and (width <=733px) {
     .main__image__container {
@@ -69,7 +84,15 @@ p.installations__content {
         width: 8rem;
         height: auto;
     }
+    .sub-image.sub9 {
+        width: 15%;
+        height: auto;
+    }
+    p.installations__content {
+        width: 90%;
+    }
 }
+
 @media screen and (width <=535px) {
     .main__image {
         width: 95%;
@@ -78,7 +101,23 @@ p.installations__content {
         width: 25%;
         height: auto;
     }
+    .sub-image.sub9 {
+        width: 17%;
+        height: auto;
+    }
     .sub__images__container {
         width: 100%;
+    }
+    p.installations__content {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (width <=346px) {
+    p.installations__content {
+        font-size: 0.9rem;
+        line-height: 1.2;
     }
 }

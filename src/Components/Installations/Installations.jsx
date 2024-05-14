@@ -78,8 +78,7 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image1} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">La poesía se hace tachando, 2015. Fragmentos de obras, objetos encontrados, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img src={Image2} className="sub-image" alt="Sub Image 1" />
                     <img src={Image3} className="sub-image" alt="Sub Image 2" />
@@ -91,8 +90,7 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image6} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">Retablo in sacris, 2010. Libro de Historia del Arte, objetos familiares donados, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img src={Image7} className="sub-image" alt="Sub Image 1" />
                 </div>
@@ -101,27 +99,25 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image13} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">El objeto huérfano, 2018. Grabado sobre metal y tinta de imprenta, dimensiones variables.</p>
                 <div className="sub__images__container">
-                    <img src={Image8} className="sub-image" alt="Sub Image 1" />
-                    <img src={Image9} className="sub-image" alt="Sub Image 2" />
-                    <img src={Image10} className="sub-image" alt="Sub Image 3" />
+                    <img src={Image8} className="sub-image sub9" alt="Sub Image 1" />
+                    <img src={Image9} className="sub-image sub9" alt="Sub Image 2" />
+                    <img src={Image10} className="sub-image sub9" alt="Sub Image 3" />
                     {/* <img src={Image11} className="sub-image" alt="Sub Image 4" /> */}
-                    <img src={Image12} className="sub-image" alt="Sub Image 4" />
-                    <img src={Image14} className="sub-image" alt="Sub Image 4" />
-                    <img src={Image15} className="sub-image" alt="Sub Image 4" />
-                    <img src={Image16} className="sub-image" alt="Sub Image 4" />
-                    <img src={Image17} className="sub-image" alt="Sub Image 4" />
-                    <img src={Image18} className="sub-image" alt="Sub Image 4" />
+                    <img src={Image12} className="sub-image sub9" alt="Sub Image 4" />
+                    <img src={Image14} className="sub-image sub9" alt="Sub Image 4" />
+                    <img src={Image15} className="sub-image sub9" alt="Sub Image 4" />
+                    <img src={Image16} className="sub-image sub9" alt="Sub Image 4" />
+                    <img src={Image17} className="sub-image sub9" alt="Sub Image 4" />
+                    <img src={Image18} className="sub-image sub9" alt="Sub Image 4" />
                 </div>
             </section>
             <section className="installations__container">
                 <div className="main__image__container">
                     <img src={Image19} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">Caja con objetos, 2010. Objetos donados, metal, tinta de imprenta, 60 cm cúbicos. Objetos donados por internos de la Prisión de Quivicán, la Habana, Cuba.</p>
                 <div className="sub__images__container">
                     <img src={Image20} className="sub-image" alt="Sub Image 1" />
                     <img src={Image21} className="sub-image" alt="Sub Image 2" />
@@ -133,8 +129,7 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image25} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">Sujetos, 2011. Madera, fragmentos de objetos (grafito, lápiz labial, uñas, heces fecales de gato, fotografía, papel de lija, entre otros), dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img src={Image24} className="sub-image" alt="Sub Image 1" />
                 </div>
@@ -143,8 +138,7 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image26} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">ST, 2010. Madera y objetos personales, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img src={Image27} className="sub-image" alt="Sub Image 1" />
                 </div>
@@ -153,8 +147,7 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image29} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">Qué hacer con una casa sin alma, 2018. Video proyección sobre cristal, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img src={Image28} className="sub-image" alt="Sub Image 1" />
                     <img src={Image30} className="sub-image" alt="Sub Image 1" />
@@ -165,8 +158,7 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image32} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">S/T (Dos), 2014. Video proyección, repisa de cristal y metal, dimensiones variables.</p>
                 {/* <div className="sub__images__container">
                     <img src={Image28} className="sub-image" alt="Sub Image 1" />
                     <img src={Image30} className="sub-image" alt="Sub Image 1" />
@@ -177,8 +169,7 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image39} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">Nadar en seco, 2014. Tela, fragmentos de vidrios, fragmentos de imágenes, muebles de madera, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img src={Image33} className="sub-image" alt="Sub Image 1" />
                     <img src={Image34} className="sub-image" alt="Sub Image 1" />
@@ -192,8 +183,7 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image41} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">Soledad, 2015. Registro en texto de todos los objetos de mi casa en San Antonio de los Baños, Artemisa, Cuba, 20 x 20cm.</p>
                 <div className="sub__images__container">
                     <img src={Image40} className="sub-image" alt="Sub Image 1" />
                 </div>
@@ -202,8 +192,7 @@ const Installations = () => {
                 <div className="main__image__container">
                     <img src={Image44} className="main__image" alt="Main image" />
                 </div>
-                    <h2 className="installations__content">Instalaciones</h2>
-                    <p className="installations__content">En esta sección se muestran las instalaciones</p>
+                    <p className="installations__content">A (rl) mas Blancas, 2019. Tinta, papel y cristales rotos, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img src={Image42} className="sub-image" alt="Sub Image 1" />
                     <img src={Image43} className="sub-image" alt="Sub Image 1" />
