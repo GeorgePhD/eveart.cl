@@ -12,8 +12,13 @@
     gap: 1rem;
     padding: 1rem;
     margin-bottom: 5rem;
+    transition:all 800ms ease-in-out;
+    opacity: 0;
+    -webkit-transition:all 800ms ease-in-out;
+    -moz-transition:all 800ms ease-in-out;
+    -ms-transition:all 800ms ease-in-out;
+    -o-transition:all 800ms ease-in-out;
 }
-
 .main__image__container {
     flex: 1;
     margin: 0 auto;

@@ -52,20 +52,21 @@ const Installations = () => {
     useEffect(() => {
         const handleScroll = () => {
             const items = document.querySelectorAll('.installations__container');
-    
+            console.log('handleScroll called');
             items.forEach((item) => {
                 const itemTop = item.getBoundingClientRect().top;
-    
+                console.log('itemTop:', itemTop);
                 // Adjust this value based on when you want the animation to start
                 if (itemTop < window.innerHeight * 0.5) {
                     item.style.opacity = 1;
+                    item.style.transition = 'opacity 0.5s ease-in-out';
                 }
             });
         };
-    
+
         window.addEventListener('scroll', handleScroll);
         handleScroll(); // Call it once to check initial state
-    
+
         // Cleanup the event listener when the component is unmounted
         return () => {
             window.removeEventListener('scroll', handleScroll);
