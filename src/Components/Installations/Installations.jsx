@@ -31,7 +31,8 @@ import Image29 from '../../images/InstallationsOptimized/optimized7/installation
 import Image30 from '../../images/InstallationsOptimized/optimized7/installations (30).png'
 import Image31 from '../../images/InstallationsOptimized/optimized7/installations (31).png'
 import Image32 from '../../images/InstallationsOptimized/optimized8/installations (32).png'
-import Image33 from '../../images/InstallationsOptimized/optimized10/installations (33).png'
+/* import Image33 from '../../images/InstallationsOptimized/optimized10/installations (33).png'
+ */
 import Image34 from '../../images/InstallationsOptimized/optimized10/installations (34).png'
 import Image35 from '../../images/InstallationsOptimized/optimized10/installations (35).png'
 import Image36 from '../../images/InstallationsOptimized/optimized10/installations (36).png'
@@ -171,7 +172,7 @@ const Installations = () => {
                 </div>
                     <p className="installations__content">Nadar en seco, 2014. Tela, fragmentos de vidrios, fragmentos de imágenes, muebles de madera, dimensiones variables.</p>
                 <div className="sub__images__container">
-                    <img src={Image33} className="sub-image" alt="Sub Image 1" />
+                    {/*<img src={Image33} className="sub-image" alt="Sub Image 1" />   */}
                     <img src={Image34} className="sub-image" alt="Sub Image 1" />
                     <img src={Image35} className="sub-image" alt="Sub Image 1" />
                     <img src={Image36} className="sub-image" alt="Sub Image 1" />
