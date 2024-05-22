@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './menu.css';
+import DarkModeIcon from '../../images/dark_mode_icon.png'
 /* import Logo from '../../images/logo.png'; */
 import { Link, Outlet } from 'react-router-dom';
 import { useState,useEffect } from 'react';
@@ -14,6 +15,9 @@ const Menu = () => {
 
     const [showOffcanvas, setShowOffcanvas] = useState(false);
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
+    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [language, setLanguage] = useState('English');
+
 
     const toggleOffcanvas = () => {
         if(isSmallScreen) {
@@ -28,10 +32,15 @@ const Menu = () => {
         return () => window.removeEventListener('resize', handleResize); // Cleanup
     }, []); // Empty dependency array for effect to run once
 
-    const [language, setLanguage] = useState('English');
+    
 
     const toggleLanguage = () => {
         setLanguage(language === 'Spanish' ? 'English' : 'Spanish');
+    };
+
+    const toggleTheme = () => {
+        setIsDarkMode(!isDarkMode);
+        document.body.classList.toggle('dark-mode', !isDarkMode);
     };
 
     return (
@@ -54,8 +63,12 @@ const Menu = () => {
                             <Offcanvas.Title id="offcanvasNavbarLabel" className='offcanvas__title'>EvelynAguilar</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
+                            
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <button className='menu__button' onClick={toggleLanguage}>{language}</button>
+                                <div className="button__container">
+                                    <button className='menu__button' onClick={toggleLanguage}>{language}</button>
+                                    <img src={DarkModeIcon} className='dark__mode__icon' alt="dark mode icon" onClick={toggleTheme}/>
+                                </div>
                                 <Nav.Link className='nav__link' as={Link} to="./home" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Home' : 'Inicio'}</Nav.Link>
                                 <Nav.Link className='nav__link' as={Link} to="./about" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'About' : 'Acerca de mí'}</Nav.Link>
                                 <NavDropdown
