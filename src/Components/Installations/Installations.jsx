@@ -172,11 +172,11 @@ const Installations = () => {
                     <p className="installations__content">Nadar en seco, 2014. Tela, fragmentos de vidrios, fragmentos de imágenes, muebles de madera, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img src={Image33} className="sub-image" alt="Sub Image 1" />
-                    <img src={Image34} className="sub-image" alt="Sub Image 1" />
                     <img src={Image35} className="sub-image" alt="Sub Image 1" />
                     <img src={Image36} className="sub-image" alt="Sub Image 1" />
                     <img src={Image37} className="sub-image" alt="Sub Image 1" />
                     <img src={Image38} className="sub-image" alt="Sub Image 1" />
+                    <img src={Image34} className="sub-image" alt="Sub Image 1" />
                 </div>
             </section>
             <section className="installations__container">
