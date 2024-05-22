@@ -21,6 +21,8 @@ import Image19 from '../../images/collage (19).png'
 import Image20 from '../../images/collage (20).png'
 import Image21 from '../../images/collage (21).png'
 import { useEffect } from 'react';
+import ContactBtn from '../ContactBtn/ContactBtn'
+
 
 const Collage = () => {
 
@@ -48,7 +50,7 @@ const Collage = () => {
     }, []); // Empty dependency array means this effect runs once after initial render
 
     return (
-
+        <>
         <div className='grid__layout__collage'>
             <section className="collage__container">
                 <img className='collage__img' src={Image1} alt="collage" />
@@ -146,6 +148,8 @@ const Collage = () => {
                 <p className="collage__p">La poesía se hace tachando, 2013. Vidrio, pintura de óleo, lámina de libre de Historia del Arte, 100 cm x 70 cm.</p>
             </section>
         </div>
+        <ContactBtn />
+        </>
     )
 }
 

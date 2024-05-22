@@ -10,6 +10,8 @@ import Image8 from '../../images/oleo-pastel (8).png'
 import Image9 from '../../images/oleo-pastel (9).png'
 import Image10 from '../../images/oleo-pastel (10).png'
 import { useEffect } from 'react';
+import ContactBtn from '../ContactBtn/ContactBtn'
+
 
 const Oleopastel = () => {
 
@@ -37,7 +39,7 @@ const Oleopastel = () => {
     }, []); // Empty dependency array means this effect runs once after initial render
 
     return (
-
+        <>
         <div className='grid__layout__oleopastel'>
             <section className="oleopastel__container">
                 <img className='oleopastel__img' src={Image1} alt="El vigilante" />
@@ -81,6 +83,8 @@ const Oleopastel = () => {
             </section>
 
         </div>
+        <ContactBtn />
+        </>
     )
 }
 

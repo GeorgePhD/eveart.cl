@@ -44,6 +44,7 @@ import Image41 from '../../images/InstallationsOptimized/optimized11/installatio
 import Image42 from '../../images/InstallationsOptimized/optimized12/installations (42).png'
 import Image43 from '../../images/InstallationsOptimized/optimized12/installations (43).png'
 import Image44 from '../../images/InstallationsOptimized/optimized12/installations (44).png'
+import ContactBtn from '../ContactBtn/ContactBtn'
 
 import { useEffect } from 'react';
 
@@ -74,7 +75,7 @@ const Installations = () => {
     }, []); // Empty dependency array means this effect runs once after initial render
 
     return (
-
+        <>
         <div className="grid-container">
             <section className="installations__container">
                 <div className="main__image__container">
@@ -201,6 +202,8 @@ const Installations = () => {
                 </div>
             </section>
         </div>
+        <ContactBtn />
+        </>
     )
 }
 
