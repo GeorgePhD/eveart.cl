@@ -43,6 +43,7 @@ import Image42 from '../../images/Pose V, 2017, Chile. Tinta sobre papel, 56 x 4
 import Image43 from '../../images/SIN TÍTULO (TROCADOS) - 2018 - Tinta sobre papel, 100 x 80 cm..png'
 import Image44 from '../../images/STOH5708.png'
 import { useEffect } from 'react';
+import ContactBtn from '../ContactBtn/ContactBtn'
 
 const Drawings = () => {
 
@@ -70,7 +71,7 @@ const Drawings = () => {
     }, []); // Empty dependency array means this effect runs once after initial render
 
     return (
-
+        <>
         <div className='grid__layout__drawings'>
             <section className="drawing__container">
                 <img className='drawing__img' src={Image1} alt="dibujo manuscrito" />
@@ -287,6 +288,8 @@ Tinta sobre cartulina, 37,5 cm x 53,5 cm.
 </p>
             </section>
         </div>
+            <ContactBtn />
+        </>
     )
 }
 

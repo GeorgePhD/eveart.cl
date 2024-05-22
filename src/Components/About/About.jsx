@@ -5,6 +5,7 @@ import img3 from '../../images/profile_img (3).jpg';
 import img4 from '../../images/profile_img (4).jpg';
 import img5 from '../../images/profile_img (5).jpg';
 import { useState } from 'react';
+import ContactBtn from '../ContactBtn/ContactBtn';
 const About = () => {
 
   const [language, setLanguage] = useState('spanish');
@@ -45,7 +46,7 @@ const About = () => {
     <section className='about__section'>
       <p className="about__p inter__font about__p__align__start">{language === 'spanish' ? 'Continuará...' : 'To be continued...'}</p>
     </section>
-      
+        <ContactBtn />
     </div>
     
     </>

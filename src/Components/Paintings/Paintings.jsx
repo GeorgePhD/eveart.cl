@@ -58,6 +58,7 @@ import Image56 from '../../images/painting (56).png'
 import Image57 from '../../images/painting (57).png'
 import Image58 from '../../images/painting (58).jpg'
 import { useEffect } from 'react';
+import ContactBtn from '../ContactBtn/ContactBtn'
 
 const Paintings = () => {
 
@@ -85,7 +86,7 @@ const Paintings = () => {
     }, []); // Empty dependency array means this effect runs once after initial render
 
     return (
-
+        <>
         <div className='grid__layout__paintings'>
             <section className="paintings__container">
                 <img className='paintings__img' src={Image1} alt="El vigilante" />
@@ -320,6 +321,8 @@ const Paintings = () => {
                 <p className="paintings__p">ST, XXXIX, de la serie Open Sea, 2023, óleo sobre lienzo, 160 cm x 130 cm.</p>
             </section>
         </div>
+        <ContactBtn />
+        </>
     )
 }
 

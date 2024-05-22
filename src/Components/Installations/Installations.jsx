@@ -31,7 +31,8 @@ import Image29 from '../../images/InstallationsOptimized/optimized7/installation
 import Image30 from '../../images/InstallationsOptimized/optimized7/installations (30).png'
 import Image31 from '../../images/InstallationsOptimized/optimized7/installations (31).png'
 import Image32 from '../../images/InstallationsOptimized/optimized8/installations (32).png'
-import Image33 from '../../images/InstallationsOptimized/optimized10/installations (33).png'
+/* import Image33 from '../../images/InstallationsOptimized/optimized10/installations (33).png'
+ */
 import Image34 from '../../images/InstallationsOptimized/optimized10/installations (34).png'
 import Image35 from '../../images/InstallationsOptimized/optimized10/installations (35).png'
 import Image36 from '../../images/InstallationsOptimized/optimized10/installations (36).png'
@@ -43,6 +44,7 @@ import Image41 from '../../images/InstallationsOptimized/optimized11/installatio
 import Image42 from '../../images/InstallationsOptimized/optimized12/installations (42).png'
 import Image43 from '../../images/InstallationsOptimized/optimized12/installations (43).png'
 import Image44 from '../../images/InstallationsOptimized/optimized12/installations (44).png'
+import ContactBtn from '../ContactBtn/ContactBtn'
 
 import { useEffect } from 'react';
 
@@ -51,20 +53,21 @@ const Installations = () => {
     useEffect(() => {
         const handleScroll = () => {
             const items = document.querySelectorAll('.installations__container');
-    
+            console.log('handleScroll called');
             items.forEach((item) => {
                 const itemTop = item.getBoundingClientRect().top;
-    
+                console.log('itemTop:', itemTop);
                 // Adjust this value based on when you want the animation to start
                 if (itemTop < window.innerHeight * 0.5) {
                     item.style.opacity = 1;
+                    item.style.transition = 'opacity 0.5s ease-in-out';
                 }
             });
         };
-    
+
         window.addEventListener('scroll', handleScroll);
         handleScroll(); // Call it once to check initial state
-    
+
         // Cleanup the event listener when the component is unmounted
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -72,7 +75,7 @@ const Installations = () => {
     }, []); // Empty dependency array means this effect runs once after initial render
 
     return (
-
+        <>
         <div className="grid-container">
             <section className="installations__container">
                 <div className="main__image__container">
@@ -171,7 +174,8 @@ const Installations = () => {
                 </div>
                     <p className="installations__content">Nadar en seco, 2014. Tela, fragmentos de vidrios, fragmentos de imágenes, muebles de madera, dimensiones variables.</p>
                 <div className="sub__images__container">
-                    <img src={Image33} className="sub-image" alt="Sub Image 1" />
+                    {/* <img src={Image33} className="sub-image" alt="Sub Image 1" /> */}
+                    <img src={Image34} className="sub-image" alt="Sub Image 1" />
                     <img src={Image35} className="sub-image" alt="Sub Image 1" />
                     <img src={Image36} className="sub-image" alt="Sub Image 1" />
                     <img src={Image37} className="sub-image" alt="Sub Image 1" />
@@ -199,6 +203,8 @@ const Installations = () => {
                 </div>
             </section>
         </div>
+        <ContactBtn />
+        </>
     )
 }
 

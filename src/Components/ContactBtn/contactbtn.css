@@ -1,0 +1,42 @@
+.contactBtn__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.contactBtn__subtitle__container {
+    display: block;
+    margin: 0 auto;
+}
+.contactBtn__subtitle {
+    text-align: center;
+}
+.contact__btn {
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 45, 241);
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+.contact__btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 81, 249);
+}
+.contactBtn__content {
+    font-size: 1.5rem;
+    color: grey;
+    padding: 1rem;
+}
