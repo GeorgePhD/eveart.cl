@@ -53,6 +53,10 @@
     font-variation-settings: "slnt" 0;
 }
 
+.menu__button:hover,
+.dark__mode__icon:hover {
+    cursor: pointer;
+}
 .offcanvas__title {
     font-size: 1rem;
     color: grey;
@@ -92,15 +96,9 @@ body {
     cursor: pointer;
     margin-right: 10px;
 }
-
-/* .dark__mode__icon {
-    width: 24px;
-    height: 24px;
-} */
-
 /* Dark mode styles */
 body.dark-mode {
-    background-color: black;
+    background-color: #161514;
     color: white;
 }
 
