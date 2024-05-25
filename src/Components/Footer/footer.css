@@ -64,6 +64,16 @@
     font-size: 3rem;
     color: grey;
 }
+.artsy-logo {
+    width: 40px;
+    /*filter: invert(1);
+    -webkit-filter: invert(1);
+    */border-radius: 1rem;
+    -webkit-border-radius:1rem;
+    -moz-border-radius:1rem;
+    -ms-border-radius:1rem;
+    -o-border-radius:1rem;
+}
 .footer__icons:hover {
     transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
