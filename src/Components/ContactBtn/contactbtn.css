@@ -5,13 +5,16 @@
     gap: 1rem;
     margin: 0 auto;
 }
+
 .contactBtn__subtitle__container {
     display: block;
     margin: 0 auto;
 }
+
 .contactBtn__subtitle {
     text-align: center;
 }
+
 .contact__btn {
     border: 1px solid grey;
     padding: 1rem;
@@ -31,12 +34,44 @@
     -ms-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
 }
+
 .contact__btn:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(95, 81, 249);
 }
+
 .contactBtn__content {
     font-size: 1.5rem;
     color: grey;
     padding: 1rem;
+}
+
+@media screen and (width <=570px) {
+    .contactBtn__subtitle {
+        font-size: 1.5rem;
+    }
+    .contact__btn {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .contactBtn__content {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+@media screen and (width <=394px) {
+    .contactBtn__subtitle {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .contact__btn {
+        padding: 0.6rem;
+        font-size: 0.7rem;
+    }
+
+    .contactBtn__content {
+        font-size: 0.9rem;
+        padding: 0;
+    }
 }

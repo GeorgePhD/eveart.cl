@@ -60,13 +60,13 @@ const Menu = () => {
                         placement="end"
                     >
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title id="offcanvasNavbarLabel" className='offcanvas__title'>EvelynAguilar</Offcanvas.Title>
+                            <Offcanvas.Title id="offcanvasNavbarLabel" className='offcanvas__title courier-prime-regular'>EvelynAguilar</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                                 <div className="button__container">
-                                    <button className='menu__button courier-prime-regular' onClick={toggleLanguage}>{language}</button>
+                                    <button className='menu__button courier-prime-bold' onClick={toggleLanguage}>{language}</button>
                                     <img src={DarkModeIcon} className='dark__mode__icon' alt="dark mode icon" onClick={toggleTheme}/>
                                 </div>
                                 <Nav.Link className='nav__link courier-prime-regular' as={Link} to="./home" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Home' : 'Inicio'}</Nav.Link>

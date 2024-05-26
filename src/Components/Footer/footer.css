@@ -186,6 +186,11 @@
         font-size: 0.6rem;
         /* text-decoration: underline; */
     }
+    .artsy-logo {
+        width: 1.3rem;
+        padding: 0;
+        margin-bottom: 0.3rem;
+    }
 }
 @media screen and (width <= 340px) {
     div.footer__icons__container {
