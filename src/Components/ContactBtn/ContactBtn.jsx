@@ -11,7 +11,8 @@ const ContactBtn = () => {
             </div>
             <div className="contactBtn__section">
                 <p className="contactBtn__content">Puedes contactarme acá:</p>
-                <Link to='./contact' className='contact__btn'>enviar mensaje</Link>
+                <a href="mailto:eveart@evelynaguilarart.com" className='contact__btn'>enviar mensaje</a>
+
             </div>
         </div>
         

@@ -66,24 +66,24 @@ const Menu = () => {
                             
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                                 <div className="button__container">
-                                    <button className='menu__button' onClick={toggleLanguage}>{language}</button>
+                                    <button className='menu__button courier-prime-regular-italic' onClick={toggleLanguage}>{language}</button>
                                     <img src={DarkModeIcon} className='dark__mode__icon' alt="dark mode icon" onClick={toggleTheme}/>
                                 </div>
-                                <Nav.Link className='nav__link' as={Link} to="./home" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Home' : 'Inicio'}</Nav.Link>
-                                <Nav.Link className='nav__link' as={Link} to="./about" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'About' : 'Acerca de mí'}</Nav.Link>
+                                <Nav.Link className='nav__link courier-prime-regular-italic' as={Link} to="./home" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Home' : 'Inicio'}</Nav.Link>
+                                <Nav.Link className='nav__link courier-prime-regular-italic' as={Link} to="./about" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'About' : 'Acerca de mí'}</Nav.Link>
                                 <NavDropdown
-                                    className='nav__link'
+                                    className='nav__link courier-prime-regular-italic'
                                     title={language === 'Spanish' ? 'Gallery' : 'Galería'}
                                     id="offcanvasNavbarDropdown"
                                 >
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./drawings" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Drawings' : 'Dibujos'}</NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./paintings" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Paintings' : 'Pinturas'}
+                                    <NavDropdown.Item className='nav__link courier-prime-regular-italic' as={Link} to="./drawings" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Drawings' : 'Dibujos'}</NavDropdown.Item>
+                                    <NavDropdown.Item className='nav__link courier-prime-regular-italic' as={Link} to="./paintings" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Paintings' : 'Pinturas'}
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./collage" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Collage' : 'Collage'}
+                                    <NavDropdown.Item className='nav__link courier-prime-regular-italic' as={Link} to="./collage" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Collage' : 'Collage'}
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./installations" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Installations & objects' : 'Instalaciones y objetos'}
+                                    <NavDropdown.Item className='nav__link courier-prime-regular-italic' as={Link} to="./installations" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Installations & objects' : 'Instalaciones y objetos'}
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item className='nav__link' as={Link} to="./oleopastel" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Pastel Oleo' : 'Óleo pastel'}
+                                    <NavDropdown.Item className='nav__link courier-prime-regular-italic' as={Link} to="./oleopastel" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Pastel Oleo' : 'Óleo pastel'}
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>

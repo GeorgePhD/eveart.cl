@@ -1,3 +1,35 @@
+* font classes start here */
+.courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.courier-prime-bold {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.courier-prime-regular-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.courier-prime-bold-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* font classes end here */
 .bg-body-tertiary {
     padding: 2rem;
     background-color: transparent !important;
@@ -46,8 +78,8 @@
     border: none;
     padding: 1rem;
     color: #2DAE01;
-    font-weight: 900;
-    font-family: "Inter", sans-serif;
+    /* font-weight: 900;
+    font-family: "Inter", sans-serif; */
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "slnt" 0;

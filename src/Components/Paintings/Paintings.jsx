@@ -54,7 +54,7 @@ import Image52 from '../../images/painting (52).png'
 import Image53 from '../../images/painting (53).png'
 import Image54 from '../../images/painting (54).png'
 import Image55 from '../../images/painting (55).png'
-import Image56 from '../../images/painting (56).png'
+/* import Image56 from '../../images/painting (56).png' */
 import Image57 from '../../images/painting (57).png'
 import Image58 from '../../images/painting (58).jpg'
 import { useEffect } from 'react';
@@ -93,8 +93,8 @@ const Paintings = () => {
                 <p className="paintings__p">Amenaza de Alegía, 2022, óleo y esmalte sobre metal, 200 x 200 cm.</p>
             </section>
             <section className="paintings__container">
-                <img className='paintings__img' src={Image2} alt="El vigilante" />
-                <p className="paintings__p">Screenshot_20230219-184411_Instagram.</p>
+                <img className='paintings__img' src={Image20} alt="El vigilante" />
+                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (12)</p>
             </section>
             <section className="paintings__container">
                 <img className='paintings__img' src={Image3} alt="El vigilante" />
@@ -141,33 +141,19 @@ const Paintings = () => {
                 <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (5)</p>
             </section>
             <section className="paintings__container">
-                <img className='paintings__img' src={Image14} alt="El vigilante" />
-                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (6)</p>
+                <img className='paintings__img' src={Image25} alt="El vigilante" />
+                <p className="paintings__p">ST, X de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 30 cm.</p>
             </section>
             <section className="paintings__container">
-                <img className='paintings__img' src={Image15} alt="El vigilante" />
-                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (7)</p>
+                <img className='paintings__img' src={Image26} alt="El vigilante" />
+                <p className="paintings__p">ST, XI de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 30 cm.</p>
             </section>
             <section className="paintings__container">
-                <img className='paintings__img' src={Image16} alt="El vigilante" />
-                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (8)</p>
+                <img className='paintings__img' src={Image27} alt="El vigilante" />
+                <p className="paintings__p">ST, XIIde la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 30 cm.</p>
             </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image17} alt="El vigilante" />
-                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (9)</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image18} alt="El vigilante" />
-                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (10)</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image19} alt="El vigilante" />
-                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (11)</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image20} alt="El vigilante" />
-                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (12)</p>
-            </section>
+            
+            
             <section className="paintings__container">
                 <img className='paintings__img' src={Image21} alt="El vigilante" />
                 <p className="paintings__p">ST, I de la Serie Paisajes Inmersos, 2023,óleo sobre lienzo, 80 cm x 60 cm.</p>
@@ -180,54 +166,14 @@ const Paintings = () => {
                 <img className='paintings__img' src={Image23} alt="El vigilante" />
                 <p className="paintings__p">ST, IV de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  150 x 130 cm.</p>
             </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image24} alt="El vigilante" />
-                <p className="paintings__p">ST, V de la Serie Paisajes Inmersos 2023, óleo sobre metal,  300 x 220 cm.</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image25} alt="El vigilante" />
-                <p className="paintings__p">ST, X de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 30 cm.</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image26} alt="El vigilante" />
-                <p className="paintings__p">ST, XI de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 30 cm.</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image27} alt="El vigilante" />
-                <p className="paintings__p">ST, XIIde la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 30 cm.</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image28} alt="El vigilante" />
-                <p className="paintings__p">ST, XIII de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 30 cm.</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image29} alt="El vigilante" />
-                <p className="paintings__p">ST, XIV de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 24 cm.</p>
-            </section>
+            
+            
+            
             <section className="paintings__container">
                 <img className='paintings__img' src={Image30} alt="El vigilante" />
                 <p className="paintings__p">ST, XIX de la Serie Paisajes Inmersos 2023, óleo sobre cartón entelado,  24 x 18 cm.</p>
             </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image31} alt="El vigilante" />
-                <p className="paintings__p">ST, XL, de la Serie Open Sea, 2021, óleo y esmalte sobre metal, 210 x 97 cm en su totalidad.</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image32} alt="El vigilante" />
-                <p className="paintings__p">ST, XLII, de la Serie Open Sea, 2022, óleo y esmalte sobre metal, 100 x 80 cm cada una.</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image33} alt="El vigilante" />
-                <p className="paintings__p">ST, XLIII, de la Serie Open Sea, 2021, óleo sobre metal, 15 cm.</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image34} alt="El vigilante" />
-                <p className="paintings__p">ST, XLIII, de la serie Open Sea, 2022, óleo sobre lienzo, 39 x 35 cm.</p>
-            </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image35} alt="El vigilante" />
-                <p className="paintings__p">ST, XLIV, de la Serie Open Sea, 2022, óleo sobre metal, 37 cm x 49 cm cada una.</p>
-            </section>
+            
             <section className="paintings__container">
                 <img className='paintings__img' src={Image36} alt="El vigilante" />
                 <p className="paintings__p">ST, XV de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 24 cm.</p>
@@ -256,6 +202,7 @@ const Paintings = () => {
                 <img className='paintings__img' src={Image42} alt="El vigilante" />
                 <p className="paintings__p">ST, XXIII de la Serie Paisajes Inmersos 2023, óleo sobre cartón entelado,  40,5 x 30 cm.</p>
             </section>
+            
             <section className="paintings__container">
                 <img className='paintings__img' src={Image43} alt="El vigilante" />
                 <p className="paintings__p">ST, XXIV de la Serie Paisajes Inmersos 2023, óleo sobre cartón entelado,  40,5 x 30 cm.</p>
@@ -269,13 +216,20 @@ const Paintings = () => {
                 <p className="paintings__p">ST, XXVI de la Serie Paisajes Inmersos 2023, óleo sobre cartón entelado,  40,5 x 30 cm.</p>
             </section>
             <section className="paintings__container">
+                <img className='paintings__img' src={Image29} alt="El vigilante" />
+                <p className="paintings__p">ST, XIV de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 24 cm.</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image32} alt="El vigilante" />
+                <p className="paintings__p">ST, XLII, de la Serie Open Sea, 2022, óleo y esmalte sobre metal, 100 x 80 cm cada una.</p>
+            </section>
+            <section className="paintings__container">
                 <img className='paintings__img' src={Image46} alt="El vigilante" />
                 <p className="paintings__p">ST, XXVII de la Serie Open Sea 2022, óleo sobre lienzo, 70 x 90 cm.</p>
             </section>
-            <section className="paintings__container">
-                <img className='paintings__img' src={Image47} alt="El vigilante" />
-                <p className="paintings__p">ST, XXVII de la Serie Paisajes Inmersos, óleo sobre lienzo, 150 cm.</p>
-            </section>
+            
+            
+            
             <section className="paintings__container">
                 <img className='paintings__img' src={Image50} alt="El vigilante" />
                 <p className="paintings__p">ST, XXXI de la Serie Open Sea 2021, óleo sobre lienzo, 53 x 64 cm.</p>
@@ -285,17 +239,15 @@ const Paintings = () => {
                 <p className="paintings__p">ST, XXVIII, de la Serie open Sea, 2022, óleo sobre lienzo, 150 x 130 cm.</p>
             </section>
             <section className="paintings__container">
-                <img className='paintings__img' src={Image49} alt="El vigilante" />
-                <p className="paintings__p">St, XXX, de la Serie Open Sea, 2022, óleo sobre lienzo, 120 x 120 cm.</p>
-            </section>
-            <section className="paintings__container">
                 <img className='paintings__img' src={Image52} alt="El vigilante" />
                 <p className="paintings__p">ST, XXXIV, de la Serie Open Sea 2022, óleo sobre lienzo, 50 x 30 cm.</p>
             </section>
-            <section className="paintings__container">
+            
+            
+            {/* <section className="paintings__container">
                 <img className='paintings__img' src={Image56} alt="El vigilante" />
                 <p className="paintings__p">ST, XXXVII, de la Serie Open Sea, 2023, óleo sobre lienzo, 200 x 130 cm.</p>
-            </section>
+            </section> */}
             <section className="paintings__container">
                 <img className='paintings__img' src={Image54} alt="El vigilante" />
                 <p className="paintings__p">ST, XXXV, de la Serie Open Sea, 2023, óleo sobre lienzo, 200 x 130 cm.</p>
@@ -309,6 +261,14 @@ const Paintings = () => {
                 <p className="paintings__p">ST, XXXVI, de la Serie Open Sea, 2023, óleo sobre lienzo, 200 x 130 cm.</p>
             </section>
             <section className="paintings__container">
+                <img className='paintings__img' src={Image16} alt="El vigilante" />
+                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (8)</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image49} alt="El vigilante" />
+                <p className="paintings__p">St, XXX, de la Serie Open Sea, 2022, óleo sobre lienzo, 120 x 120 cm.</p>
+            </section>
+            <section className="paintings__container">
                 <img className='paintings__img' src={Image57} alt="El vigilante" />
                 <p className="paintings__p">ST, XXXVIII, de la Serie Open Sea, 2023, óleo y esmalte sobre metal, 222 x 180 cm.</p>
             </section>
@@ -317,8 +277,62 @@ const Paintings = () => {
                 <p className="paintings__p">ST, XXXIII de la Serie Open Sea 2022, óleo  sobre lienzo, 44 x 38 cm.</p>
             </section>
             <section className="paintings__container">
+                <img className='paintings__img' src={Image14} alt="El vigilante" />
+                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (6)</p>
+            </section>
+            <section className="paintings__container">
                 <img className='paintings__img' src={Image53} alt="El vigilante" />
                 <p className="paintings__p">ST, XXXIX, de la serie Open Sea, 2023, óleo sobre lienzo, 160 cm x 130 cm.</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image15} alt="El vigilante" />
+                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (7)</p>
+            </section>
+            
+            
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image17} alt="El vigilante" />
+                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (9)</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image18} alt="El vigilante" />
+                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (10)</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image19} alt="El vigilante" />
+                <p className="paintings__p">ST, de la Serie Open Sea, 2022, óleo y esmalte sobre metal 26 cm x 25 cm. (11)</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image2} alt="El vigilante" />
+                <p className="paintings__p">ST/VI, de la serie Paisajes Inmersos, 2023. Óleo sobre  lienzo 170 cm x 130 cm cada una.</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image24} alt="El vigilante" />
+                <p className="paintings__p">ST, V de la Serie Paisajes Inmersos 2023, óleo sobre metal,  300 x 220 cm.</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image28} alt="El vigilante" />
+                <p className="paintings__p">ST, XIII de la Serie Paisajes Inmersos 2023, óleo sobre lienzo,  30 x 30 cm.</p>
+            </section> 
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image33} alt="El vigilante" />
+                <p className="paintings__p">ST, XLIII, de la Serie Open Sea, 2021, óleo sobre metal, 15 cm.</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image47} alt="El vigilante" />
+                <p className="paintings__p">ST, XXVII de la Serie Paisajes Inmersos, óleo sobre lienzo, 150 cm.</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image34} alt="El vigilante" />
+                <p className="paintings__p">ST, XLIII, de la serie Open Sea, 2022, óleo sobre lienzo, 39 x 35 cm.</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image31} alt="El vigilante" />
+                <p className="paintings__p">ST, XL, de la Serie Open Sea, 2021, óleo y esmalte sobre metal, 210 x 97 cm en su totalidad.</p>
+            </section>
+            <section className="paintings__container">
+                <img className='paintings__img' src={Image35} alt="El vigilante" />
+                <p className="paintings__p">ST, XLIV, de la Serie Open Sea, 2022, óleo sobre metal, 37 cm x 49 cm cada una.</p>
             </section>
         </div>
         <ContactBtn />
