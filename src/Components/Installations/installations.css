@@ -26,6 +26,7 @@
 }
 .main__image {
     width: 42rem;
+    box-shadow: 2px 2px 5px rgba(115, 115, 115, 0.38)
 }
 .sub__images__container {
     flex: 1;

@@ -20,7 +20,7 @@
 .drawing__img {
     width: 100%;
     height: auto;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px rgba(115, 115, 115, 0.38);
 }
 .drawing__p {
     font-size: 1.2rem;

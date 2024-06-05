@@ -41,157 +41,43 @@ import STOH5708 from '../images/drawings/STOH5708.png'
 
 export const drawings = [
 
-    {
-        image: EL_VIGILANTE,
-        'description': 'EL VIGILANTE - 2018 - Tinta sobre papel - 90 x 75 cm.',
-    },
-    {
-        image: FE,
-        'description': 'Fe, 2016. Lápiz de color sobre cartulina, 50 x 70 cm.',
-    },
-    {
-        image: LIBERO,
-        'description': 'Librero, de la serie Dibujos Manuscritos, 2016. Tinta sobre cartulina, 21 x 30 cm.'
-    },
-    {
-        image: METRO,
-        'description': 'Metro de Villa Alemana, de la serie Dibujos Manuscritos, 2018. Tinta sobre papel, 100 x 80 cm.'
-    },
-    {
-        image: RINCON,
-        'description': 'RINCÓN, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 x 66 cm.'
-    },
-    {
-        image: ST_1,
-        'description': 'ST, de la serie Dibujos Manuscritos, 2016. Tinta sobre papel, 86,5 x 66 cm.'
-    },
-    {
-        image: ST_2,
-        'description': 'ST, de la serie Dibujos Manuscritos, 2016. Tinta sobre lienzo, 38 x 38 cm.'
-    },
-    {
-        image: ST_3,
-        'description': 'ST, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 x 66 cm.'
-    },
-    {
-        image: TECHO_SUAREZ,
-        'description': 'Los techos de Santo Suárez, de la serie Dibujos Manuscritos, 2019. Tinta sobre papel, 120 cm x 80 cm.'
-    },
-    {
-        image: DRAWING_1,
-        'description': 'Viaje al Rincón, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 120 cm x 80 cm.'
-    },
-    {
-        image: ST_4,
-        'description': 'ST/XXXVII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'
-    },
-    {
-        image: DRAWING_3,
-        'description': 'Autorretrato con sombra sin velo, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 x 66cm.',
-    },
-    {
-        image: DRAWING_8,
-        'description': 'ST/XVIII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 34 cm x 24 cm.'
-    },
-    {
-        image: DRAWING_4,
-        'description': 'ST/XVII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 34 cm x 24 cm.'
-    },
-    {
-        image: DRAWING_13,
-        'description': 'ST/XV, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 34 cm x 24 cm.'
-    },
-    {
-        image: DRAWING_14,
-        'description': 'Sobre el puente, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 cm x 66 cm.'
-    },
-    {
-        image: DRAWING_15,
-        'description': 'Sobre mí, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 cm x 66 cm.'
-    },
-    {
-        image: SOBRE_EL_PUENTE,
-        'description': 'ST/II, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 cm x 66 cm.'
-    },
-    {
-        image: SOBRE_EL_MI,
-        'description': 'Viaje a San Lázaro, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 x 66 cm.'
-    },
-    {
-        image: ST_5,
-        'description': 'Despertador, de la serie Dibujos Manuscritos, 2014. Grafito sobre cartulina, 50 x 70 cm.'
-    },
-    {
-        image: ST_6,
-        'description': 'ST/XLIII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.',
-    },
-    {
-        image: SAN_LAZARO,
-        'description': 'ST/XLII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'
-    },
-    {
-        image: DESPERTADOR,
-        'description': 'ST/XLI, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'
-    },
-    {
-        image: DRAWING_5,
-        'description': 'Paisaje sin nombre, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 64 x 56 cm.'
-    },
-    {
-        image: DRAWING_6,
-        'description': 'ST/XXXVI, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'
-    },
-    {
-        image: DRAWING_7,
-        'description': 'ST/XXVII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'
-    },
-    {
-        image: PAISAJE_SIN_NOMBRE,
-        'description': 'ST/XXI, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'
-    },
-    {
-        image: DRAWING_9,
-        'description': 'ST/XIX, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 34 cm x 24 cm.'
-    },
-    {
-        image: DRAWING_10,
-        'description': 'ST, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'
-    },
-    {
-        image: DRAWING_11,
-        'description': 'Sombras, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm cada uno.'
-    },
-    {
-        image: DRAWING_12,
-        'description': 'Pose III, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 56 cm x 43 cm.'
-    },
-    {
-        image: DRAWING_16,
-        'description': 'Pose IV, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 56 cm x 43 cm.'
-    },
-    {
-        image: DRAWING_17,
-        'description': 'Pose V, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 56 cm x 43 cm.'
-    },
-    {
-        image: POSE_III,
-        'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'
-    },
-    {
-        image: POSE_IV,
-        'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'
-    },
-    {
-        image: POSE_V,
-        'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'
-    },
-    {
-        image: ST_7,
-        'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'
-    },
-    {
-        image: STOH5708,
-        'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'
-    }
+    {image: EL_VIGILANTE,'description': 'EL VIGILANTE - 2018 - Tinta sobre papel - 90 x 75 cm.',},
+    {image: FE,'description': 'Fe, 2016. Lápiz de color sobre cartulina, 50 x 70 cm.',},
+    {image: LIBERO,'description': 'Librero, de la serie Dibujos Manuscritos, 2016. Tinta sobre cartulina, 21 x 30 cm.'},
+    {image: METRO,'description': 'Metro de Villa Alemana, de la serie Dibujos Manuscritos, 2018. Tinta sobre papel, 100 x 80 cm.'},
+    {image: RINCON,'description': 'RINCÓN, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 x 66 cm.'},
+    {image: ST_1,'description': 'ST, de la serie Dibujos Manuscritos, 2016. Tinta sobre papel, 86,5 x 66 cm.'},
+    {image: ST_2,'description': 'ST, de la serie Dibujos Manuscritos, 2016. Tinta sobre lienzo, 38 x 38 cm.'},
+    {image: ST_3,'description': 'ST, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 x 66 cm.'},
+    {image: TECHO_SUAREZ,'description': 'Los techos de Santo Suárez, de la serie Dibujos Manuscritos, 2019. Tinta sobre papel, 120 cm x 80 cm.'},
+    {image: DRAWING_1,'description': 'Viaje al Rincón, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 120 cm x 80 cm.'},
+    {image: ST_4,'description': 'ST/XXXVII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'},
+    {image: DRAWING_3,'description': 'Autorretrato con sombra sin velo, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 x 66cm.',},
+    {image: DRAWING_8,'description': 'ST/XVIII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 34 cm x 24 cm.'},
+    {image: DRAWING_4,'description': 'ST/XVII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 34 cm x 24 cm.'},
+    {image: DRAWING_13,'description': 'ST/XV, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 34 cm x 24 cm.'},
+    {image: DRAWING_14,'description': 'Sobre el puente, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 cm x 66 cm.'},
+    {image: DRAWING_15,'description': 'Sobre mí, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 cm x 66 cm.'},
+    {image: SOBRE_EL_PUENTE,'description': 'ST/II, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 cm x 66 cm.'},
+    {image: SOBRE_EL_MI,'description': 'Viaje a San Lázaro, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 86,5 x 66 cm.'},
+    {image: ST_5,'description': 'Despertador, de la serie Dibujos Manuscritos, 2014. Grafito sobre cartulina, 50 x 70 cm.'},
+    {image: ST_6,'description': 'ST/XLIII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.',},
+    {image: SAN_LAZARO,'description': 'ST/XLII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'},
+    {image: DESPERTADOR,'description': 'ST/XLI, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'},
+    {image: DRAWING_5,'description': 'Paisaje sin nombre, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 64 x 56 cm.'},
+    {image: DRAWING_6,'description': 'ST/XXXVI, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'},
+    {image: DRAWING_7,'description': 'ST/XXVII, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'},
+    {image: PAISAJE_SIN_NOMBRE,'description': 'ST/XXI, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 27 cm x 37,5 cm.'},
+    {image: DRAWING_9,'description': 'ST/XIX, de la serie Estudios para una armadura, 2020. Tinta sobre cartulina, 34 cm x 24 cm.'},
+    {image: DRAWING_10,'description': 'ST, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'},
+    {image: DRAWING_11,'description': 'Sombras, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm cada uno.'},
+    {image: DRAWING_12,'description': 'Pose III, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 56 cm x 43 cm.'},
+    {image: DRAWING_16,'description': 'Pose IV, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 56 cm x 43 cm.'},
+    {image: DRAWING_17,'description': 'Pose V, de la serie Dibujos Manuscritos, 2017. Tinta sobre papel, 56 cm x 43 cm.'},
+    {image: POSE_III,'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'},
+    {image: POSE_IV,'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'},
+    {image: POSE_V,'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'},
+    {image: ST_7,'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'},
+    {image: STOH5708,'description': 'Tres momentos, de la serie Dibujos Manuscritos, 2020. Tinta sobre cartulina, 37,5 cm x 53,5 cm.'}
 ]
     
