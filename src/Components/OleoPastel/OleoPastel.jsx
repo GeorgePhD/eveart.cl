@@ -1,10 +1,19 @@
 import './oleopastel.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import ContactBtn from '../ContactBtn/ContactBtn'
 import { oleopastel } from '../../galleriesInfo/oleopastel';
 
 
 const Oleopastel = () => {
+
+    const [fullScreenImage, setFullScreenImage] = useState(null);
+    const handleClick = (collage) => {
+        if (fullScreenImage === collage) {
+            setFullScreenImage(null);
+        } else {
+            setFullScreenImage(collage);
+        }
+    }
 
     useEffect(() => {
         const handleScroll = () => {
@@ -38,7 +47,11 @@ const Oleopastel = () => {
 
                     return (
                         <section className="oleopastel__container" key={index}>
-                        <img className='oleopastel__img' src={oleopastel.image} alt="oleopastel"/>
+                        <img className={fullScreenImage === oleopastel ? 'fullScreenImage' : 'paintings__img'}
+                                    src={oleopastel.image}
+                                    alt={`Collage ${index + 1}`}
+                                    onClick={() => handleClick(oleopastel)}
+                            />
                         <p className="oleopastel__p">{oleopastel.description}</p>
                     </section>
                     )

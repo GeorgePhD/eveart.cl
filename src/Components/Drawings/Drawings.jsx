@@ -7,7 +7,6 @@ const Drawings = () => {
 
     const [fullScreenImage, setFullScreenImage] = useState(null);
     const handleClick = (drawing) => {
-        console.log('Clicked on image:', drawing);
         if (fullScreenImage === drawing) {
             setFullScreenImage(null);
         } else {
@@ -44,22 +43,22 @@ const Drawings = () => {
 
             <div className='grid__layout__drawings'>
                 {
-                    
-                drawings.map((drawing, index) => {
 
-                    return (
-                        <section className="drawing__container" key={index}>
-                        <img 
-                            className={fullScreenImage === drawing ? 'fullScreenImage' : 'drawing__img'} 
-                            src={drawing.image} 
-                            alt={`Drawing ${index + 1}`} 
-                            onClick={() => handleClick(drawing)} 
-                        />
-                        <p className="drawing__p">{drawing.description}</p>
-                    </section>
-                    )
-                })
-            }
+                    drawings.map((drawing, index) => {
+
+                        return (
+                            <section className="drawing__container" key={index}>
+                                <img
+                                    className={fullScreenImage === drawing ? 'fullScreenImage' : 'drawing__img'}
+                                    src={drawing.image}
+                                    alt={`Drawing ${index + 1}`}
+                                    onClick={() => handleClick(drawing)}
+                                />
+                                <p className="drawing__p">{drawing.description}</p>
+                            </section>
+                        )
+                    })
+                }
             </div>
             <ContactBtn />
         </>

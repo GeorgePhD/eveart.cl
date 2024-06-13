@@ -1,10 +1,19 @@
 import './collage.css';
 import { collage } from '../../galleriesInfo/collage';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import ContactBtn from '../ContactBtn/ContactBtn'
 
 
 const Collage = () => {
+
+    const [fullScreenImage, setFullScreenImage] = useState(null);
+    const handleClick = (collage) => {
+        if (fullScreenImage === collage) {
+            setFullScreenImage(null);
+        } else {
+            setFullScreenImage(collage);
+        }
+    }
 
     useEffect(() => {
         const handleScroll = () => {
@@ -39,7 +48,11 @@ const Collage = () => {
 
                     return (
                         <section className="collage__container" key={index}>
-                        <img className='collage__img' src={collage.image} alt="collage"/>
+                        <img className={fullScreenImage === collage ? 'fullScreenImage' : 'paintings__img'}
+                                    src={collage.image}
+                                    alt={`Collage ${index + 1}`}
+                                    onClick={() => handleClick(collage)}
+                            />
                         <p className="collage__p">{collage.description}</p>
                     </section>
                     )

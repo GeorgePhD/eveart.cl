@@ -31,10 +31,10 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(215, 213, 213, 0.72);
     z-index: 1000;
     transition: all 300ms ease-in-out;
-    padding: 2rem;
+    padding: 6rem;
 }
 
 .drawing__p {
@@ -43,7 +43,11 @@
     margin-top: 2rem;
     color: rgb(165, 164, 164);
 }
-
+@media screen and (width <= 627px) {
+    .drawing__container img.fullScreenImage {
+        padding: 1.5rem;
+    }
+}
 @media screen and (width <=414px) {
     .drawing__img {
         width: 70%;
@@ -52,5 +56,8 @@
 
     .drawing__p {
         font-size: 0.8rem;
+    }
+    .drawing__container img.fullScreenImage {
+        padding: 1.5rem;
     }
 }
