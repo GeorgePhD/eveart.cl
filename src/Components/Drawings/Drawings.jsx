@@ -1,9 +1,19 @@
 import './drawings.css';
 import { drawings } from '../../galleriesInfo/drawings';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import ContactBtn from '../ContactBtn/ContactBtn'
 
 const Drawings = () => {
+
+    const [fullScreenImage, setFullScreenImage] = useState(null);
+    const handleClick = (drawing) => {
+        console.log('Clicked on image:', drawing);
+        if (fullScreenImage === drawing) {
+            setFullScreenImage(null);
+        } else {
+            setFullScreenImage(drawing);
+        }
+    }
 
     useEffect(() => {
         const handleScroll = () => {
@@ -39,7 +49,12 @@ const Drawings = () => {
 
                     return (
                         <section className="drawing__container" key={index}>
-                        <img className='drawing__img' src={drawing.image} alt="dibujo manuscrito"/>
+                        <img 
+                            className={fullScreenImage === drawing ? 'fullScreenImage' : 'drawing__img'} 
+                            src={drawing.image} 
+                            alt={`Drawing ${index + 1}`} 
+                            onClick={() => handleClick(drawing)} 
+                        />
                         <p className="drawing__p">{drawing.description}</p>
                     </section>
                     )
