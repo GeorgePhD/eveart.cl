@@ -56,5 +56,6 @@
     }
     .oleopastel__container img.fullScreenImage {
         padding: 1.5rem;
+        transition: none;
     }
 }

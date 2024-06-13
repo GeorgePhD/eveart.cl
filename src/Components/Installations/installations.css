@@ -155,6 +155,7 @@ p.installations__content {
     }
     .installations__container img.fullScreenImage {
         padding: 1.5rem;
+        transition: none;
     }
 }
 @media screen and (width <=346px) {
