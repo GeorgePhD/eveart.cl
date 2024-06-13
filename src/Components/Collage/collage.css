@@ -41,6 +41,12 @@
     color: rgb(165, 164, 164);
     margin-top: 0.7rem;
 }
+@media screen and (width <= 627px) {
+    .collage__container img.fullScreenImage {
+        padding: 1.5rem;
+    }
+}
+
 @media screen and (width <= 414px) {
     .collage__img {
         width: 70%;
@@ -48,5 +54,8 @@
     }
     .collage__p {
         font-size: 0.8rem;
+    }
+    .collage__container img.fullScreenImage {
+        padding: 1.5rem;
     }
 }

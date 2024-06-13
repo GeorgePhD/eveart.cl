@@ -48,7 +48,7 @@
         padding: 1.5rem;
     }
 }
-@media screen and (width <=414px) {
+@media screen and (width <= 414px) {
     .drawing__img {
         width: 70%;
         height: auto;

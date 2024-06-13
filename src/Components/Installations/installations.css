@@ -122,6 +122,11 @@ p.installations__content {
         width: 90%;
     }
 }
+@media screen and (width <= 627px) {
+    .installations__container img.fullScreenImage {
+        padding: 1.5rem;
+    }
+}
 
 @media screen and (width <=535px) {
     .main__image {
@@ -147,6 +152,9 @@ p.installations__content {
 @media screen and (width <= 414px) {
     p.installations__content {
         font-size: 0.8rem;
+    }
+    .installations__container img.fullScreenImage {
+        padding: 1.5rem;
     }
 }
 @media screen and (width <=346px) {
