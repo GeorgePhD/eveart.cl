@@ -47,9 +47,9 @@ const Oleopastel = () => {
 
                     return (
                         <section className="oleopastel__container" key={index}>
-                        <img className={fullScreenImage === oleopastel ? 'fullScreenImage' : 'paintings__img'}
+                        <img className={fullScreenImage === oleopastel ? 'fullScreenImage' : 'oleopastel__img'}
                                     src={oleopastel.image}
-                                    alt={`Collage ${index + 1}`}
+                                    alt={`Oleopastel ${index + 1}`}
                                     onClick={() => handleClick(oleopastel)}
                             />
                         <p className="oleopastel__p">{oleopastel.description}</p>
