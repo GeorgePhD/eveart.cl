@@ -49,6 +49,7 @@ const PinturaSobreCartulina = () => {
                                 alt={`pintura_sobre_cartulina ${index + 1}`}
                                 onClick={() => handleClick(item)}
                             />
+                            <p className="pintura_sobre_cartulina__p">S/T {index + 1}</p>
                             {/* <p className="pintura_sobre_cartulina__p">{item.description}</p> */}
                         </section>
                     ))
