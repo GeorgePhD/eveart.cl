@@ -8,6 +8,7 @@ import OleoPastel from '../src/Components/OleoPastel/OleoPastel';
 import Home from '../src/Components/Home/Home';
 import About from '../src/Components/About/About';
 import Footer from '../src/Components/Footer/Footer';
+import PinturaSobreCartulina from '../src/Components/Pintura_Sobre_Cartulina/PinturaSobreCartulina';
 /* import Button from '../src/Components/Utils/ChangeLanguageButton';
  */
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/Collage" element={<Collage />} />
             <Route path="/Installations" element={<Installations />} />
             <Route path="/OleoPastel" element={<OleoPastel />} />
+            <Route path="/Pintura_sobre_cartulina" element={<PinturaSobreCartulina />} />
         </Routes>
         <Footer />
       </BrowserRouter>
