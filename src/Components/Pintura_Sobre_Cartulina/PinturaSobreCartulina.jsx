@@ -7,11 +7,11 @@ import { pintura_sobre_cartulina } from '../../galleriesInfo/pintura_sobre_cartu
 const PinturaSobreCartulina = () => {
     const [fullScreenImage, setFullScreenImage] = useState(null);
 
-    const handleClick = (collage) => {
-        if (fullScreenImage === collage) {
+    const handleClick = (pintura_sobre_cartulina) => {
+        if (fullScreenImage === pintura_sobre_cartulina) {
             setFullScreenImage(null);
         } else {
-            setFullScreenImage(collage);
+            setFullScreenImage(pintura_sobre_cartulina);
         }
     }
 

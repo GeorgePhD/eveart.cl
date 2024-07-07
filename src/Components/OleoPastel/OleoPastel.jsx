@@ -7,11 +7,11 @@ import { oleopastel } from '../../galleriesInfo/oleopastel';
 const Oleopastel = () => {
 
     const [fullScreenImage, setFullScreenImage] = useState(null);
-    const handleClick = (collage) => {
-        if (fullScreenImage === collage) {
+    const handleClick = (oleopastel) => {
+        if (fullScreenImage === oleopastel) {
             setFullScreenImage(null);
         } else {
-            setFullScreenImage(collage);
+            setFullScreenImage(oleopastel);
         }
     }
 
