@@ -53,7 +53,7 @@ const Collage = () => {
                                     alt={`Collage ${index + 1}`}
                                     onClick={() => handleClick(collage)}
                             />
-                        <p className="collage__p">{collage.description}</p>
+                        <p className="collage__p courier-prime-regular">{collage.description}</p>
                     </section>
                     )
                 })

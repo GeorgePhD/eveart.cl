@@ -52,7 +52,7 @@ const Oleopastel = () => {
                                     alt={`Oleopastel ${index + 1}`}
                                     onClick={() => handleClick(oleopastel)}
                             />
-                        <p className="oleopastel__p">{oleopastel.description}</p>
+                        <p className="oleopastel__p courier-prime-regular">{oleopastel.description}</p>
                     </section>
                     )
                 })
