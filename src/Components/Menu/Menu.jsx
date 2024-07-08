@@ -86,6 +86,8 @@ const Menu = () => {
                                     </NavDropdown.Item>
                                     <NavDropdown.Item className='nav__link courier-prime-regular' as={Link} to="./oleopastel" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Pastel Oleo' : 'Óleo pastel'}
                                     </NavDropdown.Item>
+                                    <NavDropdown.Item className='nav__link courier-prime-regular' as={Link} to="./pintura_sobre_cartulina" onClick={toggleOffcanvas}>{language === 'Spanish' ? 'Cartboard painting' : 'Pintura sobre cartulina'}
+                                    </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
                         </Offcanvas.Body>

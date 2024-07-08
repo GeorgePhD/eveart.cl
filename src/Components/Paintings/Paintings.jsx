@@ -51,7 +51,7 @@ const Paintings = () => {
                                     alt={`Paintings ${index + 1}`}
                                     onClick={() => handleClick(painting)}
                             />
-                            <p className="paintings__p">{painting.description}</p>
+                            <p className="paintings__p courier-prime-regular">{painting.description}</p>
                     </section>
                     )
                 })

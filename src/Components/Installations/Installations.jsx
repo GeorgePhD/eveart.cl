@@ -96,7 +96,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image1)}
                     />
                 </div>
-                <p className="installations__content">La poesía se hace tachando, 2015. Fragmentos de obras, objetos encontrados, dimensiones variables.</p>
+                <p className="installations__content courier-prime-regular">La poesía se hace tachando, 2015. Fragmentos de obras, objetos encontrados, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img
                         src={Image2}
@@ -133,7 +133,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image6)}
                     />
                 </div>
-                <p className="installations__content">Retablo in sacris, 2010. Libro de Historia del Arte, objetos familiares donados, dimensiones variables.</p>
+                <p className="installations__content courier-prime-regular">Retablo in sacris, 2010. Libro de Historia del Arte, objetos familiares donados, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img
                         src={Image7}
@@ -152,7 +152,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image13)}
                     />
                 </div>
-                <p className="installations__content">El objeto huérfano, 2018. Grabado sobre metal y tinta de imprenta, dimensiones variables.</p>
+                <p className="installations__content courier-prime-regular">El objeto huérfano, 2018. Grabado sobre metal y tinta de imprenta, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img
                         src={Image8}
@@ -219,7 +219,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image19)}
                     />
                 </div>
-                <p className="installations__content">Caja con objetos, 2010. Objetos donados, metal, tinta de imprenta, 60 cm cúbicos. Objetos donados por internos de la Prisión de Quivicán, la Habana, Cuba.</p>
+                <p className="installations__content courier-prime-regular">Caja con objetos, 2010. Objetos donados, metal, tinta de imprenta, 60 cm cúbicos. Objetos donados por internos de la Prisión de Quivicán, la Habana, Cuba.</p>
                 <div className="sub__images__container">
                     <img
                         src={Image20}
@@ -256,7 +256,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image25)}
                     />
                 </div>
-                <p className="installations__content">Sujetos, 2011. Madera, fragmentos de objetos (grafito, lápiz labial, uñas, heces fecales de gato, fotografía, papel de lija, entre otros), dimensiones variables.</p>
+                <p className="installations__content courier-prime-regular">Sujetos, 2011. Madera, fragmentos de objetos (grafito, lápiz labial, uñas, heces fecales de gato, fotografía, papel de lija, entre otros), dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img
                         src={Image24}
@@ -275,7 +275,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image26)}
                     />
                 </div>
-                <p className="installations__content">ST, 2010. Madera y objetos personales, dimensiones variables.</p>
+                <p className="installations__content courier-prime-regular">ST, 2010. Madera y objetos personales, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img
                         src={Image27}
@@ -294,7 +294,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image29)}
                     />
                 </div>
-                <p className="installations__content">Qué hacer con una casa sin alma, 2018. Video proyección sobre cristal, dimensiones variables.</p>
+                <p className="installations__content courier-prime-regular">Qué hacer con una casa sin alma, 2018. Video proyección sobre cristal, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img
                         src={Image28}
@@ -325,7 +325,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image32)}
                     />
                 </div>
-                <p className="installations__content">S/T (Dos), 2014. Video proyección, repisa de cristal y metal, dimensiones variables.</p>
+                <p className="installations__content courier-prime-regular">S/T (Dos), 2014. Video proyección, repisa de cristal y metal, dimensiones variables.</p>
                 {/* <div className="sub__images__container">
                     <img src={Image28} className="sub-image" alt="Sub Image 1" />
                     <img src={Image30} className="sub-image" alt="Sub Image 1" />
@@ -341,7 +341,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image39)}
                     />
                 </div>
-                <p className="installations__content">Nadar en seco, 2014. Tela, fragmentos de vidrios, fragmentos de imágenes, muebles de madera, dimensiones variables.</p>
+                <p className="installations__content courier-prime-regular">Nadar en seco, 2014. Tela, fragmentos de vidrios, fragmentos de imágenes, muebles de madera, dimensiones variables.</p>
                 <div className="sub__images__container">
                     {/* <img src={Image33} className="sub-image" alt="Sub Image 1" /> */}
                     <img
@@ -385,7 +385,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image41)}
                     />
                 </div>
-                <p className="installations__content">Soledad, 2015. Registro en texto de todos los objetos de mi casa en San Antonio de los Baños, Artemisa, Cuba, 20 x 20cm.</p>
+                <p className="installations__content courier-prime-regular">Soledad, 2015. Registro en texto de todos los objetos de mi casa en San Antonio de los Baños, Artemisa, Cuba, 20 x 20cm.</p>
                 <div className="sub__images__container">
                     <img
                         src={Image40}
@@ -404,7 +404,7 @@ const Installations = () => {
                         onClick={() => handleClick(Image44)}
                     />
                 </div>
-                <p className="installations__content">A (rl) mas Blancas, 2019. Tinta, papel y cristales rotos, dimensiones variables.</p>
+                <p className="installations__content courier-prime-regular">A (rl) mas Blancas, 2019. Tinta, papel y cristales rotos, dimensiones variables.</p>
                 <div className="sub__images__container">
                     <img
                         src={Image42}
