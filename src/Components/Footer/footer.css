@@ -114,11 +114,14 @@
     .footer__icons__container {
         gap: 1rem;
         margin-top: 0;
-        padding: 1rem;
+        padding: 0.3rem;
         padding-top: 0;
     }
     .footer__icons {
-        font-size: 2.3rem;
+        font-size: 2rem;
+    }
+    .artsy-logo {
+        width: 1.8rem;
     }
     .footer h2 {
         font-size: 1.4rem;
@@ -151,6 +154,10 @@
     }
 }
 @media screen and (width <= 470px) {
+
+    .footer__email__link {
+        font-size: 1rem;
+    }
     .footer-section.section1 h2 {
         display: none;
     }
@@ -167,15 +174,28 @@
         margin-top: 3rem;
     }
     
+    .footer-content {
+        display: block;
+    }
+
+    .footer-section {
+        margin-bottom: 1.7rem;
+    }
     div.footer__icons__container {
         margin-bottom: 1rem;
         padding-top: 0;
         padding-bottom: 0;
     }
     .footer__p,
-    .link__letsdevel0pme,
     .footer-bottom.section3 p {
         font-size: 0.6rem !important;
+    }
+    .link__letsdevel0pme {
+        font-size: 1rem !important;
+        margin-bottom: 0;
+    }
+    .artsy-logo {
+        width: 1.5rem;
     }
 }
 @media screen and (width <= 430px) {
@@ -196,7 +216,8 @@
     div.footer__icons__container {
         margin-bottom: 0;
     }
-    /* footer.footer {
-        margin-left: 1rem;
-    } */
+    .link__letsdevel0pme {
+        font-size: 0.9rem !important;
+        margin-top: 1rem;
+    }
 }
