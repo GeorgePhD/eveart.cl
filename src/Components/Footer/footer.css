@@ -201,10 +201,12 @@
 @media screen and (width <= 430px) {
     .footer {
         margin-top: 0;
+        background-color: black;
+        color: white;
+        padding: 3rem;
     }
     .footer__email__link {
         font-size: 1rem;
-        /* text-decoration: underline; */
     }
     .link__letsdevel0pme {
         font-size: 0.9rem !important;
