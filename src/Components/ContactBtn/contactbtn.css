@@ -61,7 +61,7 @@
     }
 }
 
-@media screen and (width <=400px) {
+@media screen and (width <=470px) {
     .contactBtn__section {
         display: flex;
         flex-direction: column;
