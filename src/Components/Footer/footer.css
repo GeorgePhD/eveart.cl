@@ -205,6 +205,12 @@
         color: white;
         padding: 3rem;
     }
+    .footer__home {
+        margin-top: 0;
+        background-color: white;
+        color: grey;
+        padding: 3rem;
+    }
     .footer__email__link {
         font-size: 1rem;
     }

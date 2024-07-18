@@ -1,11 +1,15 @@
 import FooterIcons from "./FooterIcons";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 const FooterDetail = () => {
     
+    const location = useLocation();
+    console.log('Current pathname:', location.pathname);
+    const isHomePage = location.pathname === '/';
 
     return (
 
-        <footer className="footer">
+        
+        <footer className={`footer ${isHomePage ? 'footer__home' : 'footer'}`}>
             <div className="footer-content">
                 
                 <div className="footer-section section1">
@@ -32,7 +36,7 @@ const FooterDetail = () => {
                 </div>
             </div>
         </footer>
-    )
-}
+    );
+};
 
 export default FooterDetail
